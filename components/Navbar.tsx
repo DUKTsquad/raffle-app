@@ -24,6 +24,9 @@ export default function Navbar() {
                     <Text fontSize={"xl"} fontWeight={"bold"}>Ultimate Raffle App</Text>
                 </Link>
                 <Flex flexDirection={"row"} alignItems={"center"}>
+                        <Link href={"https://shynz.net/launchpad/app-launchpad/"}>
+                            <Text fontWeight={"bold"} mr={10}>App Launchpad</Text>
+                        </Link>
                     {!adminLoading && address === admin && (
                         <Link href={"/admin"}>
                             <Text fontWeight={"bold"} mr={10}>Admin</Text>
